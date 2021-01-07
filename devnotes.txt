@@ -1,1 +1,4 @@
-browser-sync start --proxy "cherokee.test" --files "*.css" "*.php" "js/*.js"
+browser-sync start --proxy "proxysite.test" --files "*.css" "*.php" "js/*.js"
+
+
+* Change the proxy to your local dev url
