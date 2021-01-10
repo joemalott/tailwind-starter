@@ -1,10 +1,10 @@
 module.exports = {
   purge: {
     options: {
-          whitelist: [
+          safelist: [
                 require('purgecss-with-wordpress').whitelist,
                 ],
-               whitelistPatterns: require('purgecss-with-wordpress').whitelistPatterns,
+               safelistPatterns: require('purgecss-with-wordpress').whitelistPatterns,
         },
   },
   darkMode: false, // or 'media' or 'class'
