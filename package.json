@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css": "postcss src/*.css -o dist/bundle.css",
+    "build:css": "postcss src/all.min.css, src/tailwind.css -o dist/bundle.css",
     "watch": "watch 'npm run build:css' ./"
   },
   "keywords": [],
