@@ -10,4 +10,6 @@
 
   <?php wp_head(); ?>
 </head>
-<body class="subpixel-antialiased">
+<body class="subpixel-antialiased flex flex-col min-h-screen">
+
+<! –– Header Content Goes After Here––>
