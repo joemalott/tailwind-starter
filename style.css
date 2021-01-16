@@ -1,8 +1,8 @@
 /*
-Theme Name: Tailwind Starter
+Theme Name: Tatlin Theme
 Author: Joe Malott
 Author URI: https://joemalott.com
-Description: A starting tailwingcss theme. Change this to suit your needs
+Description: A starting tailwindcss theme. Change this to suit your needs
 Text Domain: tailwindstarter
 */
 
@@ -217,3 +217,14 @@ a img.aligncenter {
 /*=============================
   Custom Styles
 =============================*/
+
+body {
+  font-family: 'Vollkorn', sans-serif;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
