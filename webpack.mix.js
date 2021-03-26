@@ -1,11 +1,14 @@
 let mix = require('laravel-mix');
 let path = require('path');
 
+require('mix-tailwindcss');
+
 mix.setPublicPath(path.resolve('./'));
 
 mix.js('resources/js/app.js', 'js');
 
-mix.postCss("resources/css/app.css", "css");
+mix.postCss("resources/css/app.css", "css").tailwind();;
+
 
 mix.options({
     postCss: [
