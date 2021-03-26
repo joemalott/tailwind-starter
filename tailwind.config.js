@@ -1,6 +1,11 @@
 module.exports = {
   purge: {
     options: {
+          content: [
+            './*.php',
+            './*/*.php',
+            './resources/js/*.js',
+          ],
           safelist: [
                 require('purgecss-with-wordpress').whitelist,
                 ],
@@ -20,3 +25,5 @@ module.exports = {
     require('@tailwindcss/typography'),
   ],
 }
+
+
