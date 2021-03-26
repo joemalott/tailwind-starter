@@ -21,10 +21,16 @@ mix.options({
 });
 
 // mix.browserSync({
-//     proxy: 'http://site.local',
-//     host: 'localhost',
-//     open: 'external',
-//     port: 8000
+//     watch: true,
+//     files: [
+//         './**/*.php',
+//         './**/*'
+//     ],
+//     proxy: {
+//         target: "http://your-site.local/",
+//         ws: true,
+//     },
 // });
+
 
 mix.version();
