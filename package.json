@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Tailwind Starter for Wordpress",
   "scripts": {
-    "development": "mix",
+    "dev": "mix",
     "watch": "mix watch",
     "watch-poll": "mix watch -- --watch-options-poll=1000",
     "hot": "mix watch --hot",
-    "production": "mix --production"
+    "prod": "mix --production"
   },
   "author": "Joe Malott",
   "license": "ISC",
