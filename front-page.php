@@ -5,6 +5,13 @@
 <! –– Add Tailwind CSS Stuff Here ––>
 
 
+<h1 class="text-3xl font-bold underline">
+    This is the front Page!
+</h1>
+
+<p class="mb-4">
+	Start coding some awesome sites.
+</p>
 
 <?php 
 if ( have_posts() ) {
